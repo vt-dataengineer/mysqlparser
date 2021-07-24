@@ -89,3 +89,4 @@ def mysql_connect(query):
 if __name__ == '__main__':
     ddl = open('ddl.sql','r')
     ddl_generate(ddl)
+    
